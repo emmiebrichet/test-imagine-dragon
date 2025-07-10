@@ -1,0 +1,116 @@
+/* style.css */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1f4037, #99f2c8);
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 15px;
+  padding: 30px 40px;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 1.9rem;
+  letter-spacing: 1.2px;
+  color: #c7f5d9;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+form input {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  transition: background 0.3s ease;
+}
+
+form input:focus {
+  background: #a0e7a0;
+  color: #0b3d0b;
+}
+
+form button {
+  background: #1d6154;
+  color: white;
+  padding: 12px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #149070;
+}
+
+#playlist {
+  list-style: none;
+  padding: 0;
+  max-height: 350px;
+  overflow-y: auto;
+  border-top: 1px solid #4caf50;
+}
+
+#playlist li {
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 12px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #e0f8d8;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+#playlist li a {
+  color: #a7d129;
+  text-decoration: none;
+  max-width: 70%;
+  overflow-wrap: break-word;
+}
+
+#playlist li button {
+  background: #e63946;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition:  0.3s ease;
+}
+
+#playlist li button:hover {
+  background: #c5303f;
+}

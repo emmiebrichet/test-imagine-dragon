@@ -1,0 +1,12 @@
+{
+  "name": "test-imagine-dragon",
+  "version": "1.0.0",
+  "main": "multiple-playlist.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

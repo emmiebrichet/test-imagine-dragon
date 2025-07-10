@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Playlist Imagine Dragons</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Ma Playlist Imagine Dragons 🎵</h1>
+
+    <form id="addSongForm">
+      <input type="text" id="title" placeholder="Titre de la chanson" required />
+      <input type="text" id="artist" placeholder="Artiste" value="Imagine Dragons" readonly />
+      <input type="url" id="url" placeholder="URL de la chanson (YouTube, Soundcloud...)" required />
+      <button type="submit">Ajouter</button>
+    </form>
+
+    <ul id="playlist"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
